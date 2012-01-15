@@ -11,7 +11,7 @@ first experiment with Jenkins, Vagrant, or Chef.
 
 This assumes some version of Ruby and [VirtualBox] are installed. Download and install VirtualBox from [its website][VirtualBox].
 
-```shell
+```sh
 bundle install # to install the vagrant and chef gems
 vagrant box add base http://files.vagrantup.com/lucid32.box # to download a base ubuntu virtual machine image
 vagrant up # to set up the virtual machine with the vagrant configuration and chef recipes in the project
