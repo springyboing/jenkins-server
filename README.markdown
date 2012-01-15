@@ -12,9 +12,12 @@ first experiment with Jenkins, Vagrant, or Chef.
 This assumes some version of Ruby and [VirtualBox] are installed. Download and install VirtualBox from [its website][VirtualBox].
 
 ```sh
-bundle install # to install the vagrant and chef gems
-vagrant box add base http://files.vagrantup.com/lucid32.box # to download a base ubuntu virtual machine image
-vagrant up # to set up the virtual machine with the vagrant configuration and chef recipes in the project
+# install the vagrant and chef gems
+bundle install
+# download a base ubuntu virtual machine image
+vagrant box add base http://files.vagrantup.com/lucid32.box
+# set up the virtual machine with the vagrant configuration and chef recipes in the project
+vagrant up
 ```
 
 Now the server should be running. Stop it with `vagrant halt` or SSH into the server to inspect it with `vagrant ssh`.
