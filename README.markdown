@@ -14,8 +14,6 @@ This assumes some version of Ruby and [VirtualBox] are installed. Download and i
 ```sh
 # install the vagrant and chef gems
 bundle install
-# download a base ubuntu virtual machine image
-vagrant box add base http://files.vagrantup.com/lucid32.box
 # set up the virtual machine with the vagrant configuration and chef recipes in the project
 vagrant up
 ```
