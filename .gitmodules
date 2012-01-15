@@ -1,0 +1,3 @@
+[submodule "cookbooks/jenkins"]
+	path = cookbooks/jenkins
+	url = https://github.com/fnichol/chef-jenkins.git
