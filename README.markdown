@@ -15,10 +15,10 @@ This assumes some version of Ruby and [VirtualBox] are installed. Download and i
 # install the vagrant and chef gems
 bundle install
 # set up the virtual machine with the vagrant configuration and chef recipes in the project
-vagrant up
+bundle exec vagrant up
 ```
 
-Now the server should be running. Stop it with `vagrant halt` or SSH into the server to inspect it with `vagrant ssh`.
+Now the server should be running. Stop it with `bundle exec vagrant halt` or SSH into the server to inspect it with `bundle exec vagrant ssh`.
 
 [VirtualBox]: https://www.virtualbox.org/wiki/Downloads
 
