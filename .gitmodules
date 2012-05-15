@@ -4,3 +4,6 @@
 [submodule "cookbooks/java"]
 	path = cookbooks/java
 	url = http://github.com/opscode-cookbooks/java
+[submodule "cookbooks/apt"]
+	path = cookbooks/apt
+	url = http://github.com/opscode-cookbooks/apt
