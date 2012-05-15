@@ -1,9 +1,6 @@
 [submodule "cookbooks/jenkins"]
 	path = cookbooks/jenkins
 	url = https://github.com/fnichol/chef-jenkins.git
-[submodule "janky"]
-	path = janky
-	url = git://gist.github.com/1497335
-[submodule "janky-src"]
-	path = janky-src
-	url = https://github.com/github/janky.git
+[submodule "cookbooks/java"]
+	path = cookbooks/java
+	url = http://github.com/opscode-cookbooks/java
